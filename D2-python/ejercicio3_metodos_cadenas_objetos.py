@@ -16,7 +16,7 @@ cadena_prueba_04 = "A453SCII"
 
 contenedor_dir = dir(cadena_prueba_01)
 
-print(f"> {contenedor_dir}")
+print(f"> Mostrame los atributos de la cadena {contenedor_dir}")
 
 # Metodo UPPER - convierte a Mayuscula una cadena. UPPER es un metodo
 
@@ -51,7 +51,7 @@ print(f"> En 'cadena_prueba_02' se encontro la palabra '{objetivo}' en la posici
 
 busqueda_index = cadena_prueba_01.index("a")
 
-print(busqueda_index)
+print(f"> Se encontro el caracter en la posicion {busqueda_index}")
 
 # Metodo ISNUMERIC - si es numérico devuelve TRUE. Para que se considere una cadena numerica tiene que contener 
 # explicitamente. De contener un espacio tambien daria FALSE la operacion.
@@ -118,5 +118,5 @@ print(f"> Quedo guardado {cadena_prueba_03} en la cadena principal")
 
 cadena_separada = cadena_prueba_01.split(" ")
 
-print(cadena_separada)
+print(f"> Separando la 'cadena_prueba_01' {cadena_separada}")
 
