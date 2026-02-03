@@ -7,6 +7,7 @@
 # Datos
 
 duracion_curso_soydalto = 1.5 
+
 duracion_curso_promedio = 4
 duracion_curso_mas_rapido = 2.5 
 duracion_curso_mas_lento = 7 
@@ -32,8 +33,8 @@ print(f"> El curso mas lento dura un %{dif_mas_lento:.2f} más que el curso de S
 
 print("Ejercicio_01_b")
 
-descarte_curso_soydalto = ((1 - duracion_curso_soydalto * 100) / contenido_crudo_soydalto)
-descarte_curso_promedio = ((1 - duracion_curso_promedio * 100) / contenido_crudo_promedio)
+descarte_curso_soydalto = (100 - (duracion_curso_soydalto * 100) / contenido_crudo_soydalto)
+descarte_curso_promedio = (100 - (duracion_curso_promedio * 100) / contenido_crudo_promedio)
 
 print(f"> En el curso de 'SoyDalto' se descarta %{descarte_curso_soydalto:.2f} de material inservible.")
 print(f"> En los cursos promedios se descarta %{descarte_curso_promedio:.2f} de material inservible.")
