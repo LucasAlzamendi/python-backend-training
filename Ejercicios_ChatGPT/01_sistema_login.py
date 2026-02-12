@@ -12,6 +12,9 @@ attemps = 3
 acceso = False
 # Ingreso y verificación de los datos del usuario
 
+# WHILE - Mientras la condicion sea TRUE se sigue ejecutando, tras cada loop se verifica la condicion y si es FALSE termina
+# el WHILE
+
 while 0 < attemps and not acceso:
     user_id = input("Ingrese su nombre de usuario: ")
     user_password = input("Ingrese su contraseña: ")
